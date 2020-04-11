@@ -1,0 +1,296 @@
+
+body {
+    font-family: 'Poppins', sans-serif, 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    padding-top: 54px;
+    color: #868e96;
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 0;
+      padding-left: 17rem;
+    }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Poppins', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+    color:#C85179;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #515558;
+  }
+
+  a {
+    color:#C85179;
+  }
+  
+  a:hover, a:focus, a:active {
+    color: #C85179
+  }
+
+  p.lead {
+    color: #343a40;
+    font-size: 1.15rem;
+    font-weight: 400;
+  }
+  
+  .subheading {
+    /* text-transform: uppercase; */
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.3rem;
+  }
+
+  .subheading > a {
+    font-size: 1.3rem;
+  }
+    
+  .titletext > span {
+    font-size: 1.3rem;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a:hover {
+    background-color:#C85179;
+  }
+  
+  .dev-icons {
+    font-size: 3rem;
+    color:rgb(155, 124, 134, 0.8);
+  }
+  
+  .dev-icons .list-inline-item i:hover {
+    color:#C85179;
+  }
+  
+  .softskills {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #515558;
+  }s
+
+  .softskills > i {
+    color:#C85179;
+  }
+
+
+
+  .projects_item {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 1.3rem; 
+    height: 15rem;
+  }
+  .projects_item:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 300ms ease; 
+  }
+  .projects_item .projects_text {
+    position: absolute;
+    left: 0px;
+    bottom: 0rem;
+    padding : 0.5rem 1rem 0rem 1rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .projects_item .projects_text h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 5px;
+    transition: all 300ms linear 0s;
+    text-transform: uppercase;
+    cursor: pointer; 
+  }
+  .projects_item .projects_text p {
+    margin-bottom: 0px;
+    font-size: 14px; 
+  }
+  .projects_item:hover:before {
+    opacity: 0.7; 
+  }
+  .projects_item:hover .projects_text {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .projects_item:hover .projects_text h4 {
+    background: linear-gradient(to right, #C85179 0%, rgb(201, 126, 151) 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  }
+
+  .contact-form{
+    width: 100%;
+    max-width: 40rem;
+  }
+  .form-control {
+    margin-bottom: 1.2rem;
+    border: none;
+    background-color: #ebd8df;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    padding: 1.2rem 1.5rem;
+  }
+
+  .contact-form ::-webkit-input-placeholder {
+    color: #928f8f; 
+  }
+
+  .contact-form textarea {
+    height: 20rem;
+    resize: none;
+    padding-top: 1.2rem !important; 
+  }
+
+  .contact-form button {
+    background: #C85179;
+    width: 140px;
+    padding: 13px 0;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer; 
+  }
+
+  .contact-form button:hover, .contact-form button:visited {
+    background:#C85179; 
+  }
+
+
+  #sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+  
+  #sideNav .navbar-toggler:focus {
+    outline-color: #d48a6e;
+  }
+  
+  @media (min-width: 992px) {
+    #sideNav {
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh;
+    }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+    }
+    #sideNav .navbar-brand .img-profile {
+      max-width: 10rem;
+      max-height: 10rem;
+      border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    }
+    #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+    }
+    #sideNav .navbar-collapse .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+    }
+  }
+  
+  section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 75rem;
+  }
+  
+  section.resume-section .resume-item .resume-date {
+    min-width: none;
+  }
+  
+  @media (min-width: 768px) {
+    section.resume-section {
+      min-height: 100vh;
+    }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    section.resume-section {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+    }
+  }
+  
+  .bg-primary {
+    background-color:#C85179 !important;
+  }
+  
+  .text-primary {
+    color:#C85179 !important;
+  }
+  

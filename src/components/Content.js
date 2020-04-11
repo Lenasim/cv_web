@@ -206,7 +206,7 @@ class Content extends React.Component {
 
                 <hr className="m-0" />
 
-                <Element name="#contact" className="element">
+                {/* <Element name="#contact" className="element">
                 <Section id="contact">
                     <h2 className="mb-5">Contact Me</h2>
                     <div className="contact-form">
@@ -216,7 +216,7 @@ class Content extends React.Component {
                         <button type="submit">Send</button>
                     </div>
                 </Section>
-                </Element>            
+                </Element>             */} 
             </div>
         )
     }

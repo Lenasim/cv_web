@@ -19,11 +19,11 @@ class Nav extends React.Component {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav">
-                            <NavItem title="About" to="#about" />
-                            <NavItem title="Education" to="#education" />
-                            <NavItem title="Experience" to="#experience" />
-                            <NavItem title="Skills" to="#skills" />
-                            <NavItem title="Projects" to="#projects" />
+                            <NavItem title="A Propos" to="#about" />
+                            <NavItem title="Compétences" to="#skills" />
+                            <NavItem title="Diplômes" to="#education" />
+                            <NavItem title="Expériences" to="#experiences" />
+                            <NavItem title="Projets" to="#projects" />
                             {/* <NavItem title="Contact" to="#contact" /> */} 
                         </ul>
                     </div>

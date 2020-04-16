@@ -55,7 +55,7 @@ body {
 
   p.lead {
     color: #343a40;
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     font-weight: 400;
   }
   
@@ -73,26 +73,30 @@ body {
   .titletext > span {
     font-size: 1.3rem;
   }
-  
+  .social-icons {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color : #C85179;
+  }
   .social-icons a {
     display: inline-block;
-    height: 3.5rem;
-    width: 3.5rem;
-    background-color: #495057;
+    height: 2.8rem;
+    width: 2.8rem;
+    background-color: #C85179;
     color: #fff !important;
     border-radius: 100%;
     text-align: center;
-    font-size: 1.5rem;
-    line-height: 3.5rem;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
     margin-right: 1rem;
+    margin-top: 1rem;
   }
   
   .social-icons a:last-child {
     margin-right: 0;
   }
-  
   .social-icons a:hover {
-    background-color:#C85179;
+    background-color:#495057;
   }
   
   .dev-icons {

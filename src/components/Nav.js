@@ -24,7 +24,7 @@ class Nav extends React.Component {
                             <NavItem title="Diplômes" to="#education" />
                             <NavItem title="Expériences" to="#experiences" />
                             <NavItem title="Projets" to="#projects" />
-                            {/* <NavItem title="Contact" to="#contact" /> */} 
+                            {/* <NavItem title="Contact" to="#contact" />  */}
                         </ul>
                     </div>
                 </nav>

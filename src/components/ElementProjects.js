@@ -7,7 +7,7 @@ const ElementExperiences = () => {
     return (
         <Element name="#projects" className="element">
             <Section id="projects">
-                <h2 className="mb-5">Projects</h2>
+                <h2 className="mb-5">Projets</h2>
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
                     <div className="projects_inner row">
                         <Project
@@ -25,6 +25,7 @@ const ElementExperiences = () => {
                             link="https://vimeo.com/124384331"
                             name="UX UI Marketing Bootcamp"
                             occasion="2014 @NAVER" />
+                             
                     </div>
                 </div>
             </Section>

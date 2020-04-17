@@ -5,6 +5,7 @@ import ElementEducation from './ElementEducation'
 import ElementExperiences from './ElementExperiences'
 import ElementProjects from './ElementProjects'
 
+
 class Content extends React.Component {
     render() {
         return (
@@ -19,7 +20,8 @@ class Content extends React.Component {
                 <hr className="m-0" />
                 <ElementProjects />
                 <hr className="m-0" />
-                {/* <Element name="#contact" className="element">
+{/* 
+                <Element name="#contact" className="element">
                 <Section id="contact">
                     <h2 className="mb-5">Contact Me</h2>
                     <div className="contact-form">

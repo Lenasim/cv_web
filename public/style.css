@@ -58,7 +58,7 @@ body {
     font-size: 1.3rem;
     font-weight: 400;
   }
-  
+
   .subheading {
     /* text-transform: uppercase; */
     font-weight: 500;
@@ -114,7 +114,7 @@ body {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
     color: #515558;
-  }s
+  }
 
   .softskills > i {
     color:#C85179;
@@ -149,7 +149,7 @@ body {
     background-color: rgba(255, 255, 255, 0.8);
   }
   .projects_item .projects_text h4 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: #343a40;
     margin-bottom: 5px;

@@ -4,8 +4,8 @@ import { Element } from 'react-scroll'
 
 const ElementSkills = () => {
     return(
-        <Element name="#skills" className="element">
-                <Section id="skills">
+        <Element name="skills" className="element">
+                <Section>
                     <h2 className="mb-5">Compétences</h2>
 
                     <div className="mb-5">

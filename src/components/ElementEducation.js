@@ -5,8 +5,8 @@ import { Element } from 'react-scroll'
 
 const ElementEducation = () => {
     return (
-        <Element name="#education" className="element">
-            <Section id="education">
+        <Element name="education" className="element">
+            <Section>
                 <h2 className="mb-5">Diplômes</h2>
                 <EducationItem
                     name="Wild Code School "

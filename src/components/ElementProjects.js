@@ -5,8 +5,8 @@ import { Element } from 'react-scroll'
 
 const ElementExperiences = () => {
     return (
-        <Element name="#projects" className="element">
-            <Section id="projects">
+        <Element name="projects" className="element">
+            <Section>
                 <h2 className="mb-5">Projets</h2>
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
                     <div className="projects_inner row">

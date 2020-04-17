@@ -10,7 +10,6 @@ export default function NavItem(props) {
                 to={props.to} 
                 spy={true} 
                 smooth={true} 
-                offset={50} 
                 duration={500}>
                 {props.title}
             </Link>

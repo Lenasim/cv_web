@@ -120,14 +120,18 @@ body {
     color:#C85179;
   }
 
-
+  .projects_inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 2rem;
+    grid-template-rows: minmax(17rem, auto);
+  }
 
   .projects_item {
     position: relative;
     border-radius: 5px;
     overflow: hidden;
-    margin-bottom: 1.3rem; 
-    height: 15rem;
+    height: 13rem;
   }
   .projects_item:before {
     content: "";
@@ -148,13 +152,14 @@ body {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
   }
-  .projects_item .projects_text h4 {
-    font-size: 1.3rem;
-    font-weight: 600;
+  .projects_item .projects_text a h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    
     color: #343a40;
     margin-bottom: 5px;
     transition: all 300ms linear 0s;
-    text-transform: uppercase;
+    text-transform: none;
     cursor: pointer; 
   }
   .projects_item .projects_text p {
@@ -168,9 +173,9 @@ body {
     background-color: rgba(0, 0, 0, 0);
   }
   .projects_item:hover .projects_text h4 {
-    background: linear-gradient(to right, #C85179 0%, rgb(201, 126, 151) 70%);
+    /* background: linear-gradient(to right, #C85179 0%, rgb(201, 126, 151) 70%); */
     background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    /* -webkit-text-fill-color: transparent;  */
   }
 
   .contact-form{

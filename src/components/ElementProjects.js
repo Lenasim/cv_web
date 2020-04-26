@@ -9,23 +9,36 @@ const ElementExperiences = () => {
             <Section>
                 <h2 className="mb-5">Projets</h2>
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-                    <div className="projects_inner row">
+                    <div className="projects_inner">
                         <Project
-                            img="img/projet1.png"
-                            link="https://lenasim.github.io/p1-js-PAW/"
-                            name="Site web fictif - JS/HTML/CSS"
+                            img="img/projet-5.png"
+                            link="#"
+                            name="Generateur d'activites pour la soiree"
+                            skill="ReactJS · Git · Scrum"
                             occasion="2020 @Wild Code School" />
                         <Project
-                            img="img/projet2015.png"
+                            img="img/projet-4.png"
+                            link="https://cv-hailin-sim.netlify.app/"
+                            name="CV web"
+                            skill="ReactJS · Bootstrap"
+                            occasion="2020" />
+                        <Project
+                            img="img/projet-3.png"
+                            link="https://lenasim.github.io/p1-js-PAW/"
+                            name="Blog pour une photographe"
+                            skill="HTML · CSS · JS vanilla · Git"
+                            occasion="2020 @Wild Code School" />
+                        <Project
+                            img="img/projet-2.png"
                             link="http://eng.hansalim.or.kr/"
                             name="Refonte du site web responsive"
-                            occasion="2015 @Hansalim, TF team" />
+                            skill="UX · TaskForce Team"
+                            occasion="2015 @Hansalim" />
                         <Project
                             img="img/projet2014.jpg"
                             link="https://vimeo.com/124384331"
                             name="UX UI Marketing Bootcamp"
                             occasion="2014 @NAVER" />
-                             
                     </div>
                 </div>
             </Section>

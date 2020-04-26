@@ -169,7 +169,7 @@ body {
   }
   .projects_item:hover .projects_text h4 {
     background: linear-gradient(to right, #C85179 0%, rgb(201, 126, 151) 70%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent; 
   }
 
@@ -215,7 +215,9 @@ body {
 
 
   #sideNav .navbar-nav .nav-item .nav-link {
-    font-weight: 800;
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+    font-weight: 600;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
   }
@@ -237,12 +239,12 @@ body {
     }
     #sideNav .navbar-brand {
       display: flex;
-      margin: auto auto 0;
+      margin: auto auto 1.5rem;
       padding: 0.5rem;
     }
     #sideNav .navbar-brand .img-profile {
-      max-width: 10rem;
-      max-height: 10rem;
+      max-width: 12rem;
+      max-height: 11rem;
       border: 0.5rem solid rgba(255, 255, 255, 0.2);
     }
     #sideNav .navbar-collapse {

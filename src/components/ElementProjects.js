@@ -8,7 +8,7 @@ const ElementExperiences = () => {
         <Element name="projects" className="element">
             <Section>
                 <h2 className="mb-5">Projets</h2>
-                <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div className="resume-item">
                     <div className="projects_inner">
                         <Project
                             img="img/projet-5.png"

@@ -30,12 +30,12 @@ body {
   }
   
   h2 {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     color:#C85179;
   }
   
   h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   p {
@@ -71,7 +71,7 @@ body {
   }
     
   .titletext > span {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .social-icons {
     font-size: 1.1rem;
@@ -282,6 +282,16 @@ body {
   }
   
   @media (min-width: 768px) {
+    h2 {
+      font-size: 3.2rem;
+      color:#C85179;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+    .titletext > span {
+      font-size: 1.3rem;
+    }
     section.resume-section {
       min-height: 100vh;
     }
@@ -291,6 +301,16 @@ body {
   }
   
   @media (min-width: 992px) {
+    h2 {
+      font-size: 3.2rem;
+      color:#C85179;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+    .titletext > span {
+      font-size: 1.3rem;
+    }
     section.resume-section {
       padding-top: 3rem !important;
       padding-bottom: 3rem !important;

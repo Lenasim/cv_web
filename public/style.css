@@ -55,8 +55,12 @@ body {
 
   p.lead {
     color: #343a40;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
+  }
+  p.bold{
+    font-weight: 700;
+    font-size: 1.3rem;
   }
 
   .subheading {

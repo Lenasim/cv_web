@@ -13,9 +13,11 @@ const ElementAbout = () => {
                     <br />
                     <br /> <a href="mailto:radical.rin@gmail.com">radical.rin@gmail.com</a>
                 </div>
-                <p className="lead">Etudiante en développement web chez Wild Code School </p>
-                <p className="lead"> En recherche de stage pour une durée de 4 mois à partir d’août 2020</p>
-                <p className="lead mb-5"> ✔️motivée ✔️Curieuse ✔️Dynamique ✔️autonome </p>
+                <p className="lead bold">Etudiante en développement web chez Wild Code School </p>
+                <p className="lead bold"> En recherche de stage pour une durée de 4 mois à partir d’août 2020</p>
+                <p className="lead mb-5"> Apres plusieurs expériences professionnelles, j’ai décidé de me reconvertir dans le monde du
+développement. Passionnée, impliquée, déterminée et dynamique, je recherche une opportunité
+pour me préparer concrètement au métier de développeur web. </p>
                 <div className="social-icons subheading">
                     <a href="mailto:radical.rin@gmail.com">
                         <i className="fas fa-at"></i>
@@ -26,7 +28,7 @@ const ElementAbout = () => {
                     <a href="https://github.com/lenasim">
                         <i className="fab fa-github"></i>
                     </a>
-                    <a href="file/CV-Dev-Stage-Hailin SIM -Aout.pdf">
+                    <a href="file/CV-HailinSIM-stage-2020.pdf">
                         <i className="fas fa-file-download"></i>
                     </a> &nbsp; Telechargez mon CV
                 </div>

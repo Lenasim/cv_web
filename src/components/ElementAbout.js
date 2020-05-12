@@ -9,7 +9,7 @@ const ElementAbout = () => {
             <Section>
                 <h1 className="mb-0">Hailin <span className="text-primary">SIM</span>
                 </h1>
-                <div className="subheading mb-5">DEVELOPPEUR WEB JUNIOR &nbsp; &nbsp; | &nbsp; &nbsp; REACT JS · NODE JS
+                <div className="subheading-main mb-5">DEVELOPPEUR WEB JUNIOR &nbsp; &nbsp; | &nbsp; &nbsp; REACT JS · NODE JS
                     <br />
                     <br /> <a href="mailto:radical.rin@gmail.com">radical.rin@gmail.com</a>
                 </div>

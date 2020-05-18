@@ -12,13 +12,13 @@ const ElementExperiences = () => {
                     <div className="projects_inner">
                         <Project
                             img="img/projet-5.png"
-                            link="https://random-night-test.netlify.app/"
+                            link="https://random-night.netlify.app/"
                             name="Generateur d'activites pour la soiree"
                             skill="ReactJS · Git · Scrum"
                             occasion="2020 @Wild Code School" />
                         <Project
                             img="img/projet-4.png"
-                            link="https://cv-hailin-sim.netlify.app/"
+                            link="https://hailin-sim.netlify.app/"
                             name="CV web"
                             skill="ReactJS · Bootstrap"
                             occasion="2020" />

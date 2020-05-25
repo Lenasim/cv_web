@@ -135,7 +135,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     grid-gap: 3rem;
-    grid-auto-rows: minmax(16rem, auto);
+    grid-auto-rows: minmax(15rem, auto);
   }
 
   .projects_item {

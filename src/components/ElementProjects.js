@@ -11,6 +11,12 @@ const ElementExperiences = () => {
                 <div className="resume-item">
                     <div className="projects_inner">
                         <Project
+                            img="img/projet-6.png"
+                            link="https://www.pimpyourwaste.com/"
+                            name="Application de gestion de stock"
+                            skill="NodeJS · MySQL · ReactJS · Git · Scrum"
+                            occasion="2020 @Wild Code School" />
+                        <Project
                             img="img/projet-5.png"
                             link="https://random-night.netlify.app/"
                             name="Generateur d'activites pour la soiree"

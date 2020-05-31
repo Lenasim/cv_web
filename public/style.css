@@ -163,7 +163,7 @@ body {
     width: 100%;
     background-color: rgba(255, 255, 255, 1);
   }
-  .projects_item, .projects_item a, .projects_text a h4 {
+  .projects_item a, .projects_text a h4 {
     font-size: 1.1rem;
     font-weight: 500;
     color: #343a40;

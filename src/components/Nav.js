@@ -23,7 +23,20 @@ class Nav extends React.Component {
                         <NavItem title="Diplômes" to="education" />
                         <NavItem title="Expériences" to="experiences" />
                         <NavItem title="Projets" to="projects" />
-                        {/* <NavItem title="Contact" to="contact" />  */}
+                        <div className="nav-icons ">
+                            <a href="mailto:radical.rin@gmail.com">
+                                <i className="fas fa-at"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/lena-hailin-sim">
+                                <i className="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/lenasim">
+                                <i className="fab fa-github"></i>
+                            </a>
+                            <a href="file/CV-HailinSIM-dev.pdf">
+                                <i className="fas fa-file-download"></i>
+                            </a>
+                        </div>
                     </ul>
                 </div>
             </nav>

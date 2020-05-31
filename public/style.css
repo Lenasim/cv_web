@@ -146,7 +146,7 @@ body {
   }
   .projects_item:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.2);
     position: absolute;
     left: 0px;
     top: 0px;
@@ -156,17 +156,16 @@ body {
     transition: all 300ms ease; 
   }
   .projects_item .projects_text {
-    position: absolute;
+    /* position: absolute; */
     left: 0px;
     bottom: 0rem;
     padding : 0.5rem 1rem 0rem 1rem;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
   }
   .projects_item .projects_text a h4 {
     font-size: 1.1rem;
     font-weight: 500;
-    
     color: #343a40;
     margin-bottom: 5px;
     transition: all 300ms linear 0s;
@@ -178,21 +177,39 @@ body {
     font-size: 14px; 
   }
   .projects_item:hover:before {
-    opacity: 0.7; 
+    opacity: 0.9; 
   }
-  .projects_item:hover .projects_text {
+  .projects_item:hover  {
     background-color: rgba(0, 0, 0, 0);
   }
-  .projects_item:hover .projects_text h4 {
-    /* background: linear-gradient(to right, #C85179 0%, rgb(201, 126, 151) 70%); */
+  .projects_item:hover .projects_text h4:hover {
+    color: #343a40;
     background-clip: text;
-    /* -webkit-text-fill-color: transparent;  */
+    -webkit-text-fill-color: transparent; 
+  }
+  .img_container{
+    width: 100%;
+    text-align: center;
+  }
+  .projects_image{
+    height: 14rem;
+    overflow: hidden;
   }
 
   .contact-form{
     width: 100%;
     max-width: 40rem;
   }
+
+  .link_git{
+    text-align: right;
+    width: fit-content;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    font-size: 1.5rem;
+  }
+
   .form-control {
     margin-bottom: 1.2rem;
     border: none;
@@ -229,7 +246,6 @@ body {
     background:#C85179; 
   }
 
-
   #sideNav .navbar-nav .nav-item .nav-link {
     font-family: 'Poppins';
     font-size: 1.3rem;
@@ -242,6 +258,31 @@ body {
     outline-color: #d48a6e;
   }
   
+  .nav-icons {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color : #C85179;
+  }
+  .nav-icons a {
+    display: inline-block;
+    height: 2.8rem;
+    width: 2.8rem;
+    background-color: #C85179;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  .nav-icons a:last-child {
+    margin-right: 0;
+  }
+  .nav-icons a:hover {
+    background-color:#495057;
+  }
+
   @media (min-width: 992px) {
     #sideNav {
       text-align: center;
@@ -279,6 +320,10 @@ body {
     }
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
       display: block;
+    }
+    .nav-icons{
+      position: absolute;
+      bottom: 2%;
     }
   }
   

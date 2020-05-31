@@ -15,8 +15,10 @@ const ElementAbout = () => {
                 </div>
                 <p className="lead bold">Etudiante en développement web chez Wild Code School </p>
                 <p className="lead bold"> En recherche d’un stage ou d’une alternance à partir d’août 2020</p>
-                <p className="lead mb-5"> Apres plusieurs expériences professionnelles, j’ai décidé de me reconvertir dans le monde du
-                développement. Passionnée, impliquée, déterminée et dynamique, je recherche une opportunité en tant que développeur web. </p>
+                <p className="lead mb-5"> Passionnée, impliquée, déterminée et dynamique sont les mots qui me définissent 
+                en tant que développeuse web. Attentive à l’évolution des technologies, 
+                je suis en veille permanente et je suis toujours prête à relever de nouveaux défis. 
+                Je suis aujourd’hui à la recherche d’une nouvelle opportunité. </p>
                 <div className="social-icons subheading">
                     <a href="mailto:radical.rin@gmail.com">
                         <i className="fas fa-at"></i>

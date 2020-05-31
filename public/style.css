@@ -147,7 +147,7 @@ body {
   .projects_item:before {
     content: "";
     background: rgba(255, 255, 255, 0.2);
-    position: absolute;
+    /* position: absolute; */
     left: 0px;
     top: 0px;
     width: 100%;
@@ -163,7 +163,7 @@ body {
     width: 100%;
     background-color: rgba(255, 255, 255, 1);
   }
-  .projects_item .projects_text a h4 {
+  .projects_item, .projects_item a, .projects_text a h4 {
     font-size: 1.1rem;
     font-weight: 500;
     color: #343a40;
@@ -181,11 +181,11 @@ body {
   }
   .projects_item:hover  {
     background-color: rgba(0, 0, 0, 0);
+    color: #343a40;
   }
   .projects_item:hover .projects_text h4:hover {
     color: #343a40;
     background-clip: text;
-    -webkit-text-fill-color: transparent; 
   }
   .img_container{
     width: 100%;
@@ -202,12 +202,10 @@ body {
   }
 
   .link_git{
-    text-align: right;
-    width: fit-content;
     position: absolute;
     bottom: 0;
-    right: 5%;
-    font-size: 1.5rem;
+    right: 4%;
+    font-size: 1.3rem;
   }
 
   .form-control {

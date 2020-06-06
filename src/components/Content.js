@@ -14,11 +14,11 @@ class Content extends React.Component {
                 <hr className="m-0" />
                 <ElementSkills />
                 <hr className="m-0" />
+                <ElementProjects />
+                <hr className="m-0" />
                 <ElementEducation />
                 <hr className="m-0" />
                 <ElementExperiences />
-                <hr className="m-0" />
-                <ElementProjects />
                 <hr className="m-0" />
             </div>
         )

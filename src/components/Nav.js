@@ -20,9 +20,9 @@ class Nav extends React.Component {
                     <ul className="navbar-nav">
                         <NavItem title="A Propos" to="about" />
                         <NavItem title="Compétences" to="skills" />
+                        <NavItem title="Projets" to="projects" />
                         <NavItem title="Diplômes" to="education" />
                         <NavItem title="Expériences" to="experiences" />
-                        <NavItem title="Projets" to="projects" />
                         <div className="nav-icons ">
                             <a href="mailto:radical.rin@gmail.com">
                                 <i className="fas fa-at"></i>

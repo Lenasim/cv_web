@@ -11,16 +11,16 @@ const ElementAbout = () => {
                 </h1>
                 <div className="subheading-main mb-5">DEVELOPPEUR WEB JUNIOR &nbsp; &nbsp; | &nbsp; &nbsp; REACT JS · NODE JS
                     <br />
-                    <br /> <a href="mailto:radical.rin@gmail.com">radical.rin@gmail.com</a>
+                    <br /> <a href="mailto:radical.rin@gmail.com">hailin.sim@gmail.com</a>
                 </div>
-                <p className="lead bold">Etudiante en développement web chez Wild Code School </p>
+                <p className="lead bold">Etudiante en développement web à la Wild Code School </p>
                 <p className="lead bold"> En recherche d’un stage ou d’une alternance à partir d’août 2020</p>
-                <p className="lead mb-5"> Passionnée, impliquée, déterminée et dynamique sont les mots qui me définissent 
-                en tant que développeuse web. Attentive à l’évolution des technologies, 
-                je suis en veille permanente et je suis toujours prête à relever de nouveaux défis. 
-                Je suis aujourd’hui à la recherche d’une nouvelle opportunité. </p>
+                <p className="lead mb-5"> Après dix années passées dans le domaine du marketing et de la pâtisserie, 
+                j’effectue aujourd’hui une nouvelle transition dans mon parcours professionnel. 
+                Attentive à l’évolution des nouvelles technologies, je suis en veille constante et 
+                je suis toujours prête à relever de nouveaux défis. </p>
                 <div className="social-icons subheading">
-                    <a href="mailto:radical.rin@gmail.com">
+                    <a href="mailto:hailin.sim@gmail.com">
                         <i className="fas fa-at"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/lena-hailin-sim">

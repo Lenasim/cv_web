@@ -1,8 +1,9 @@
 # CV web - Lena Hailin SIM
-👉[Click here to discover the site](https://hailin-sim.netlify.app/) 👈 
+👉[Click here to discover more >> https://hailin-sim.netlify.app/](https://hailin-sim.netlify.app/) 👈 
 
 **This web CV** is developed by React, Bootstrap
-* Lena Hailin Sim [Github](https://github.com/Lenasim) - [LinkedIn](https://www.linkedin.com/in/lena-hailin-sim/)
+* [Github](https://github.com/Lenasim) 
+* [LinkedIn](https://www.linkedin.com/in/lena-hailin-sim/)
 
 
 ## Technologies

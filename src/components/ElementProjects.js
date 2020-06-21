@@ -28,7 +28,8 @@ const ElementExperiences = () => {
                             link="https://random-night.netlify.app/"
                             name="Generateur d'activites pour la soiree"
                             skill="ReactJS · Web API · Git · Scrum"
-                            occasion="2020 @Wild Code School"/>
+                            occasion="2020 @Wild Code School"
+                            github="https://github.com/Lenasim/Random-night" />
                         <Project
                             img="img/projet-4.png"
                             link="https://hailin-sim.netlify.app/"

@@ -112,11 +112,13 @@ body {
   
   .dev-icons {
     font-size: 3rem;
-    color:rgb(155, 124, 134, 0.8);
-  }
-  
-  .dev-icons .list-inline-item i:hover {
     color:#C85179;
+  }
+  .dev-icons .list-inline-item {
+    margin: 0 0.5rem;
+  }
+  .dev-icons .list-inline-item i:hover {
+    color:rgb(155, 124, 134, 0.8);
   }
   
   .softskills {

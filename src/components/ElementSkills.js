@@ -10,8 +10,8 @@ const ElementSkills = () => {
 
                     <div className="mb-5">
                         <h3 className="mb-0">Langages &amp; Outils</h3>
-                        <p>HTML5 | CSS3 | JS ES6 | React | Node JS | Git | Bootstrap | mySQL | Adobe Photoshop Illustrator
-                    </p>
+                        <p>HTML5 | CSS3 | JS ES6 | ReactJS | Node JS | Git | Github </p>
+                        <p>MySQL | Express | Redux | Bootstrap | Adobe Photoshop</p>
                         <ul className="list-inline dev-icons">
                             <li className="list-inline-item">
                                 <i className="fab fa-html5"></i>
@@ -28,20 +28,18 @@ const ElementSkills = () => {
                             <li className="list-inline-item">
                                 <i className="fab fa-node"></i>
                             </li>
+                            <br/>
                             <li className="list-inline-item">
                                 <i className="fab fa-git-alt"></i>
+                            </li>
+                            <li className="list-inline-item">
+                                <i className="fab fa-github"></i>
                             </li>
                             <li className="list-inline-item">
                                 <i className="fab fa-bootstrap"></i>
                             </li>
                             <li className="list-inline-item">
                                 <i className="fas fa-database"></i>
-                            </li>
-                            <li className="list-inline-item">
-                                <i className="fab fa-gulp"></i>
-                            </li>
-                            <li className="list-inline-item">
-                                <i className="fab fa-npm"></i>
                             </li>
                             <li className="list-inline-item">
                                 <i className="fab fa-adobe"></i>
